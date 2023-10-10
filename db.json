@@ -1,0 +1,89 @@
+[
+  {
+    "ref": "feeda0a4-20d5-46a7-a75e-f48e0223c4d8",
+    "keyword": "2df4a1753a951bb77b66edc9f2bb7e76",
+    "answer": "Hola",
+    "options": {},
+    "from": "573174258469",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_59208633-8753-449c-a9d3-a22bdd57a759",
+    "keyword": "key_bd149781-f47d-4b45-8120-2961aab283a4",
+    "answer": "buenas ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "6a51bfccfdee3ce60b5671274bd1838a",
+    "from": "573174258469"
+  },
+  {
+    "ref": "e4be9e01-2b05-4075-9983-9a3177c754a1",
+    "keyword": "6a51bfccfdee3ce60b5671274bd1838a",
+    "answer": "Buenas",
+    "options": {},
+    "from": "573174258469",
+    "refSerialize": "2df4a1753a951bb77b66edc9f2bb7e76"
+  },
+  {
+    "ref": "ans_6795c8b4-25b7-4df0-b4d7-a91b7cb63bdd",
+    "keyword": "ans_59208633-8753-449c-a9d3-a22bdd57a759",
+    "answer": "que terrenos quieres",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [
+        {
+          "ref": "key_d7bf1e7a-c7e6-42ad-a4e8-b02a7ebe17c3",
+          "keyword": "si confirmo",
+          "options": {
+            "sensitive": false,
+            "regex": false
+          },
+          "refSerialize": "899521230672c58be78b07f883053a1e"
+        },
+        {
+          "ref": "ans_a37d0953-105a-4216-b83b-96f8c288bd84",
+          "keyword": "key_d7bf1e7a-c7e6-42ad-a4e8-b02a7ebe17c3",
+          "answer": "continuo con...",
+          "options": {
+            "media": null,
+            "buttons": [],
+            "capture": false,
+            "child": null,
+            "delay": 0,
+            "idle": null,
+            "nested": [],
+            "keyword": {},
+            "callback": false
+          },
+          "refSerialize": "7f84612bddb5122bce75d6f6d47184e7"
+        }
+      ],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "5a904acfa171f6c48380545eb6ab0790",
+    "from": "573174258469"
+  },
+  {
+    "ref": "c948001e-1e4d-410d-bdc8-707009acf0c8",
+    "keyword": "5a904acfa171f6c48380545eb6ab0790",
+    "answer": "Cuáles tienes ?",
+    "options": {},
+    "from": "573174258469",
+    "refSerialize": "9bbc50b087fa068df02bf2a2a63f833c"
+  }
+]

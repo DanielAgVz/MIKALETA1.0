@@ -1,0 +1,36 @@
+
+/*const { OpenAIClient, AzureKeyCredential } = require("@azure/openai");
+const readline = require("readline");
+
+const endpoint = 'https://botmikaleta.openai.azure.com/';
+const azureApiKey = '5a9b2b2978464d988f053019ab40fdf0';
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+});
+
+async function chatGPTazure() {
+  console.log("== Chat Completions Sample ==");
+
+  const client = new OpenAIClient(endpoint, new AzureKeyCredential(azureApiKey));
+  const deploymentId = "Mikaleta";
+
+  rl.question("Introduce tu pregunta: ", async (question) => {
+    const messages = [
+      { role: "user", content: question },
+    ];
+
+    const result = await client.getChatCompletions(deploymentId, messages);
+
+  const responseMessages = result.choices.map((choice) => choice.message);
+  return responseMessages;
+
+
+    //this.sendFlowSimple([parseMessage], from)
+  });
+}
+
+chatGPTazure().catch((err) => {
+  console.error("The sample encountered an error:", err);
+});*/
